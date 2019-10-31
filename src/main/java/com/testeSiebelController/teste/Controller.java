@@ -15,10 +15,10 @@ public class Controller {
 
     private static final Logger log = LoggerFactory.getLogger(Controller.class);
 
-    @RequestMapping(value = "{scheduleId}", method = RequestMethod.POST)
-    public ResponseEntity teste(@PathVariable String scheduleId){
+    @RequestMapping(value = "{request}", method = RequestMethod.POST)
+    public ResponseEntity teste(@PathVariable String request){
 
-        log.info("\n\n\nSCHEDULE_ID RECEBIDO : " + scheduleId);
+        log.info("\n\n\nREQUEST RECEBIDO : " + request);
 
         return new ResponseEntity(HttpStatus.OK);
 
