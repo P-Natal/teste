@@ -1,4 +1,4 @@
-package com.mocking.controller;
+package com.natal.genericcontroller.controller;
 
 public class GenericRequest {
     private String param1;

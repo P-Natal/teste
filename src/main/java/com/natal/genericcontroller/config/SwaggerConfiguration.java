@@ -1,4 +1,4 @@
-package com.mocking.config;
+package com.natal.genericcontroller.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
